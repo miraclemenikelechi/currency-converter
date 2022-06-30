@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>currency-converter</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+
+<body>
+    <section class="container">
+        <h4 class="title">currency converter</h4>
+        <div class="converter">
+            <div class="amount">
+                <label for="amount">amount:</label>
+                <input type="text" id="old-currency">
+            </div>
+            <div class="convert-from">
+                <label for="convert-from">from:</label>
+                <div class="flag">
+                    <select name="convert-from" id="">
+                    </select>
+                    <img src="https://countryflagsapi.com/png/us" alt="flag">
+                </div>
+            </div>
+            <div class="icon">
+                <i class="fa-solid fa-arrow-up-long"></i><i class="fa-solid fa-arrow-down-long"></i>
+            </div>
+            <div class="convert-to">
+                <label for="convert-to">to:</label>
+                <div class="flag">
+                    <select name="convert-to" id="">
+                    </select>
+                    <img src="https://countryflagsapi.com/png/ng" alt="flag">
+                </div>
+            </div>
+        </div>
+        <div class="exchange"></div>
+        <button type="submit">convert</button>
+    </section>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
